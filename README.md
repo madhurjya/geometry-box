@@ -1,2 +1,2 @@
 # cnd-web
-Web portal for "cnd"
+Web portal for "Geometry Box"
