@@ -1,0 +1,23 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "targets": {
+                    "node": "8.9.4",
+                    "browsers": [
+                        "Chrome >= 65"
+                    ]
+                }
+            }
+        ],
+        "react"
+    ],
+    "env": {
+        "development": {
+            "presets": [
+                "react-hmre"
+            ]
+        }
+    }
+}
