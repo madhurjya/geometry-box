@@ -1,0 +1,2396 @@
+{
+  "total_count": 24,
+  "item_count": 24,
+  "filtered_count": 24,
+  "page": 1,
+  "page_size": 100,
+  "page_count": 1,
+  "items": [
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 21411,
+      "message_stats": {
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 1
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        "x-dead-letter-exchange": "ACCNT_TEAM_X",
+        "x-message-ttl": 30000
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "ACCNT_TEAM_RETRY_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 1,
+        "avg_ingress_rate": 0.000006882754297410864,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 36,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-03 3:00:16",
+      "memory": 10216
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 14522,
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        "x-dead-letter-exchange": "ACCOUNT_X",
+        "x-message-ttl": 30000
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "ACCOUNT_RETRY_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": 0,
+        "next_seq_id": 0,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 21,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-03 4:18:04",
+      "memory": 9920
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 16882,
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        "x-dead-letter-exchange": "CONTRACT_X",
+        "x-message-ttl": 30000
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "CONTRACT_RETRY_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": 0,
+        "next_seq_id": 0,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 25,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-03 5:42:18",
+      "memory": 9920
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 1407619019,
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        "x-dead-letter-exchange": "EMPLOYEE_X",
+        "x-message-ttl": 30000
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "EMPLOYEE_RETRY_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 0,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 11,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-08 0:55:49",
+      "memory": 39616
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 18634,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 1,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 1,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 0,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 1,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 1
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "FUL_FILLMENT_TEAM_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 1,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 21,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-07 0:01:56",
+      "memory": 12040
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 18474,
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        "x-dead-letter-exchange": "PRODUCT_X",
+        "x-message-ttl": 30000
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "PRODUCT_RETRY_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": 0,
+        "next_seq_id": 0,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 29,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-03 4:18:04",
+      "memory": 9920
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 20036,
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_ACCNT_TEAMSET_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": 0,
+        "next_seq_id": 0,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 24,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-03 5:42:20",
+      "memory": 9688
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 1821443972,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 286383,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 286353,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 30,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 286383,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 377133
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_ACCNT_TEAM_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 377133,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 33859,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-08 0:55:49",
+      "memory": 109904
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 1840998800,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 242015,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 241695,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 320,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 242015,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 503973
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_ACCOUNT_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 503974,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 38709,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-11 0:54:23",
+      "memory": 7638048
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 2300000753,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 1561206,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 1560872,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 330,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 1561206,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 1648284
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_COMPOSITE_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 1648284,
+        "avg_ingress_rate": 9.9533068569974e-21,
+        "avg_egress_rate": 0.7048117463722806,
+        "avg_ack_ingress_rate": 0.7048117463722806,
+        "avg_ack_egress_rate": 1.812207859971486
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 12,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "memory": 1120472,
+      "consumer_utilisation": 0.9991991707286596,
+      "consumers": 20,
+      "exclusive_consumer_tag": null,
+      "policy": null
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 6149781323,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 4749352,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 4748167,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 579551,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 4749216,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 136,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 3686056
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_CONTACT_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 4865709,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 54602,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-11 0:54:23",
+      "memory": 76376
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 1919926698,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 184389,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 183708,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 676,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 184389,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 487909
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_CONTRACT_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 487913,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 52632,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-11 0:54:23",
+      "memory": 109864
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 20092394479,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 2970591,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 2968669,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 1921,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 2970591,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 42228302
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_EMPLOYEE_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 42228302,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 4096,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "memory": 1115832,
+      "consumer_utilisation": 1.0,
+      "consumers": 1,
+      "exclusive_consumer_tag": null,
+      "policy": null
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 7175508413,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 2442455,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 2442412,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 32,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 2442444,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 10,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 1,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 9807179
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_ERROR_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 9807179,
+        "avg_ingress_rate": 0.015497394794733128,
+        "avg_egress_rate": 0.015497394794733128,
+        "avg_ack_ingress_rate": 0.015497394794733128,
+        "avg_ack_egress_rate": 0.015497394794733128
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 1012,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 1,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-11 0:54:23",
+      "memory": 691200
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 818162318,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 494848,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 494815,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 33,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 494848,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 494815
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_LIGHT_COMPOSITE_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 494815,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 19835,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 5,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-11 0:54:23",
+      "memory": 1116408
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 159682735,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 1048,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 971,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 76,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 1047,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 1,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 545026
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_OPPORTUNITY_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 545026,
+        "avg_ingress_rate": 3.990183788916139e-14,
+        "avg_egress_rate": 0.6333327868552273,
+        "avg_ack_ingress_rate": 0.6333327868552273,
+        "avg_ack_egress_rate": 0.826458776995955
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 78,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "memory": 1116104,
+      "consumer_utilisation": 0.9843461499990676,
+      "consumers": 2,
+      "exclusive_consumer_tag": null,
+      "policy": null
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 1449411999,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 16947,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 16710,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 237,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 16947,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 16710
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_PRODUCT_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 16710,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 26995,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "memory": 2918568,
+      "consumer_utilisation": 1.0,
+      "consumers": 1,
+      "exclusive_consumer_tag": null,
+      "policy": null
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 749,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 749,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 5030110852,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 2875925,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 2875911,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 13,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 2875922,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 3,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 5920774
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_REISSUE_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 749,
+        "len": 749,
+        "target_ram_count": "infinity",
+        "next_seq_id": 5937158,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 137814,
+      "message_bytes_ram": 137814,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 137814,
+      "message_bytes": 137814,
+      "messages_persistent": 749,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 749,
+      "messages_ram": 749,
+      "garbage_collection": {
+        "minor_gcs": 82,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-08 0:55:49",
+      "memory": 67417224
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 390660139,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 92401,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 92175,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 226,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 92401,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 92175
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_TEAM_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 92175,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 11280,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 1,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-11 0:54:23",
+      "memory": 2918408
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 5,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 5,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 1387820468,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 421,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 0,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 410,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 413,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 8,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 413
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "SUGAR_TEST_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 5,
+        "q4": 0,
+        "len": 5,
+        "target_ram_count": "infinity",
+        "next_seq_id": 414,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 2115,
+      "message_bytes_ram": 2115,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 2115,
+      "message_bytes": 2115,
+      "messages_persistent": 5,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 5,
+      "messages_ram": 5,
+      "garbage_collection": {
+        "minor_gcs": 57500,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-11 0:54:23",
+      "memory": 63464
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 16088,
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        "x-dead-letter-exchange": "TEAM_X",
+        "x-message-ttl": 30000
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": true,
+      "vhost": "/",
+      "name": "TEAM_RETRY_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          0,
+          0,
+          0,
+          0
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": 0,
+        "next_seq_id": 0,
+        "avg_ingress_rate": 0.0,
+        "avg_egress_rate": 0.0,
+        "avg_ack_ingress_rate": 0.0,
+        "avg_ack_egress_rate": 0.0
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 23,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-03 4:18:04",
+      "memory": 9912
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 4462,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 1,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 1,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 0,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 1,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 1
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": false,
+      "vhost": "/",
+      "name": "TEST_Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 1,
+        "avg_ingress_rate": 0.05213979797278763,
+        "avg_egress_rate": 0.05213979797278763,
+        "avg_ack_ingress_rate": 0.05213979797278763,
+        "avg_ack_egress_rate": 0.05213979797278763
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 6,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-06 13:26:48",
+      "memory": 7920
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 323271,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 37,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 37,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 0,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 37,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 37
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": false,
+      "vhost": "/",
+      "name": "full-fillment-message-1",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 37,
+        "avg_ingress_rate": 0.09999761731506322,
+        "avg_egress_rate": 0.1000987753757901,
+        "avg_ack_ingress_rate": 0.1000987753757901,
+        "avg_ack_egress_rate": 0.1000987753757901
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 1106,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-11 0:54:23",
+      "memory": 109632
+    },
+    {
+      "messages_details": {
+        "rate": 0.0
+      },
+      "messages": 0,
+      "messages_unacknowledged_details": {
+        "rate": 0.0
+      },
+      "messages_unacknowledged": 0,
+      "messages_ready_details": {
+        "rate": 0.0
+      },
+      "messages_ready": 0,
+      "reductions_details": {
+        "rate": 0.0
+      },
+      "reductions": 1595268,
+      "message_stats": {
+        "deliver_get_details": {
+          "rate": 0.0
+        },
+        "deliver_get": 397,
+        "ack_details": {
+          "rate": 0.0
+        },
+        "ack": 397,
+        "redeliver_details": {
+          "rate": 0.0
+        },
+        "redeliver": 0,
+        "deliver_no_ack_details": {
+          "rate": 0.0
+        },
+        "deliver_no_ack": 0,
+        "deliver_details": {
+          "rate": 0.0
+        },
+        "deliver": 397,
+        "get_no_ack_details": {
+          "rate": 0.0
+        },
+        "get_no_ack": 0,
+        "get_details": {
+          "rate": 0.0
+        },
+        "get": 0,
+        "publish_details": {
+          "rate": 0.0
+        },
+        "publish": 397
+      },
+      "node": "rabbit@crmdvtrmq01",
+      "arguments": {
+        
+      },
+      "exclusive": false,
+      "auto_delete": false,
+      "durable": false,
+      "vhost": "/",
+      "name": "full-fillment-message-Q",
+      "message_bytes_paged_out": 0,
+      "messages_paged_out": 0,
+      "backing_queue_status": {
+        "mode": "default",
+        "q1": 0,
+        "q2": 0,
+        "delta": [
+          "delta",
+          "undefined",
+          0,
+          0,
+          "undefined"
+        ],
+        "q3": 0,
+        "q4": 0,
+        "len": 0,
+        "target_ram_count": "infinity",
+        "next_seq_id": 397,
+        "avg_ingress_rate": 0.024313188626366118,
+        "avg_egress_rate": 0.024313188626366118,
+        "avg_ack_ingress_rate": 0.024313188626366118,
+        "avg_ack_egress_rate": 0.024313188626366118
+      },
+      "head_message_timestamp": null,
+      "message_bytes_persistent": 0,
+      "message_bytes_ram": 0,
+      "message_bytes_unacknowledged": 0,
+      "message_bytes_ready": 0,
+      "message_bytes": 0,
+      "messages_persistent": 0,
+      "messages_unacknowledged_ram": 0,
+      "messages_ready_ram": 0,
+      "messages_ram": 0,
+      "garbage_collection": {
+        "minor_gcs": 426,
+        "fullsweep_after": 65535,
+        "min_heap_size": 233,
+        "min_bin_vheap_size": 46422,
+        "max_heap_size": 0
+      },
+      "state": "running",
+      "recoverable_slaves": null,
+      "consumers": 0,
+      "exclusive_consumer_tag": null,
+      "policy": null,
+      "consumer_utilisation": null,
+      "idle_since": "2018-07-11 0:54:23",
+      "memory": 109632
+    }
+  ]
+}

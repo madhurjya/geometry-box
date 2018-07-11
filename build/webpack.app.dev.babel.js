@@ -12,7 +12,7 @@ export default {
     output: {
         path: path.join(__dirname, '../dist'),
         filename: 'scripts/index.js',
-        publicPath: '/scripts'
+        publicPath: '/'
     },
     resolve: {
         alias: {

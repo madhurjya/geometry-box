@@ -1,7 +1,7 @@
 {
-  "name": "geometry-box",
+  "name": "AdminPortal",
   "version": "1.0.0",
-  "description": "Web portal for \"geometry-box\"",
+  "description": "Web portal for \"Admin\"",
   "main": "index.js",
   "scripts": {
     "build": "npm run build:app && npm run build:server",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/madhurjya/geometry-box.git"
+    "url": ""
   },
   "keywords": [],
-  "author": "Madhurjya Saikia",
+  "author": "",
   "license": "",
   "bugs": {
-    "url": "https://github.com/madhurjya/geometry-box/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/madhurjya/geometry-box#readme",
+  "homepage": "",
   "dependencies": {
     "bootstrap": "4.0.0",
     "express": "^4.16.3",

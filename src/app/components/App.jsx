@@ -1,5 +1,5 @@
 import React from 'react';
-
+import DashboardPage from './Dashboard/DashboardPage.jsx';
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -8,14 +8,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="container-fluid">
-                <nav className="navbar navbar-expand-sm navbar-light bg-light">
-                    <span className="navbar-brand mb-0 h1 text-warning">CnD</span>
-                    <ul className="navbar-nav mr-auto">
-                        asdsadsad
-                    </ul>
-                </nav>
-                <div>
-                </div>
+                <DashboardPage />
             </div >
         );
     }
